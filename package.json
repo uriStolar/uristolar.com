@@ -1,26 +1,52 @@
 {
   "name": "uristolar.com",
-  "version": "1.0.0",
+  "author": "Uri Stolar",
   "description": "My website's git repo",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "netlify-shortener": "^1.0.4"
-  },
+  "homepage": "https://uristolar.com",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
   "bin": {
     "shorten": "cli.js"
   },
   "baseUrl": "https://uristolar.com",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "shorten": "netlify-shortener"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/uristolar/root.git"
   },
-  "keywords": [],
-  "author": "Uri Stolar",
-  "license": "MIT",
-  "homepage": "https://uristolar.com"
+  "devDependencies": {
+    "netlify-shortener": "^1.0.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bulma": "^0.7.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "shorten": "netlify-shortener"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
