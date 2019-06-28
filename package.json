@@ -1,0 +1,23 @@
+{
+  "name": "uristolar.com",
+  "version": "1.0.0",
+  "description": "My website's git repo",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "netlify-shortener": "^1.0.4"
+  },
+  "baseUrl": "https://uristolar.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "shorten": "netlify-shortener"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/uristolar/root.git"
+  },
+  "keywords": [],
+  "author": "Uri Stolar",
+  "license": "MIT",
+  "homepage": "https://uristolar.com"
+}
