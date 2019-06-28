@@ -7,6 +7,9 @@
   "devDependencies": {
     "netlify-shortener": "^1.0.4"
   },
+  "bin": {
+    "shorten": "cli.js"
+  },
   "baseUrl": "https://uristolar.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
