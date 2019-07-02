@@ -1,5 +1,5 @@
 export default [
-  'Uri',
+  'Uri\'s Recursive Identity',
   'Undefined Route Index',
   'Unholy, Rebel, Insatiable',
   'Uniform Resource Identifier',
@@ -11,10 +11,16 @@ export default [
   'Unmatched Random Intelligence',
   'Unquoted Reference Introduced',
   'Unspoken Rivalry Inbetween',
+  'Unstable Radioactive Isotope',
+  'Units of Raw Intensity',
   'Until Rodents Increase',
   'Utmost Religious Importance',
   'Upper Respiratory Infection',
   'Useful Resource, Indeed',
+  'Useful Rapid Inventions',
+  'Useful Reusable Interfaces',
+  'Useless Research Institute',
+  'Using Reckless Ideas',
   'Using Ruby Indefinitely',
-  'Useless Research Institute'
+  'Unidad de Replicación de Inteligencia'
 ]
