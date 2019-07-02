@@ -1,4 +1,5 @@
 export default [
+  'Uri',
   'Undefined Route Index',
   'Unholy, Rebel, Insatiable',
   'Uniform Resource Identifier',

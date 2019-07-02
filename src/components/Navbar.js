@@ -4,7 +4,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 import acronyms from '../util/acronyms'
 
 const Navbar = props => {
-  const [currentAcronym, setCurrentAcronym] = props.randomize(acronyms, 0, 0)
+  const [currentAcronym, setCurrentAcronym] = props.randomize(acronyms, Math.floor(Math.random() * acronyms.length), 0)
   return (
     <nav
       className='navbar'
