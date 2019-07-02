@@ -35,7 +35,11 @@ const App = () => {
             <Avatar />
             <p className='title is-size-1'>URI STOLAR</p>
             <p className='subtitle is-size-2'>{`Computer Systems Engineer`}</p>
+<<<<<<< HEAD
             <p className='subtitle is-size-4'>{`Loves ${likes[currentLike]}`}</p>
+=======
+            <p className='subtitle is-size-4'>{`Likes ${likes[currentLike]}`}</p>
+>>>>>>> First version of my webpage using React Hooks
           </div>
         </div>
       </section>

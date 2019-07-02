@@ -14,9 +14,6 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/uristolar/root.git"
   },
-  "devDependencies": {
-    "netlify-shortener": "^1.0.4"
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
@@ -26,6 +23,9 @@
     "react-dom": "^16.8.6",
     "react-ga": "^2.6.0",
     "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "netlify-shortener": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
