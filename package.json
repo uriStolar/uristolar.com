@@ -4,11 +4,11 @@
   "description": "My website's git repo",
   "homepage": "https://uristolar.com",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "GPL",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/uristolar/root.git"
+    "url": "git@github.com:uriStolar/uristolar.com.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
