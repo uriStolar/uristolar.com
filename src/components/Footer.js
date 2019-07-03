@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitterSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import CCLicense from './CCLicense'
+import { faGithub, faTwitterSquare, faLinkedin, faOsi } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => (
   <div className=''>
@@ -20,8 +19,14 @@ const Footer = () => (
           Blog
         </a>
       </div>
-      <div className='level-right'>
-        <CCLicense />
+      <div className='level-right is-size-7'>
+        <span className='icon is-medium'>
+          <FontAwesomeIcon className='fas fa-2x' icon={faOsi} />
+        </span>
+        Licensed under
+        <a rel='license' href='https://www.gnu.org/licenses/gpl-3.0.txt'>
+          &nbsp;GNU General Public License V3
+        </a>.
       </div>
     </footer>
   </div>
