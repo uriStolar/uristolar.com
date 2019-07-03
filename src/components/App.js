@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import ReactGA from 'react-ga'
+import React, { useState } from 'react'
 import Avatar from './Avatar'
 import Navbar from './Navbar'
+import likes from './../util/likes'
 
-const likes = ['to write software', 'JavaScript', 'Linux servers', 'the Web', 'InfoSec', 'Cyberpunk', 'the mountains', 'bicycles']
 function useRandomize (arr, initial = 0, waitTime = 0) {
   const [randomIdx, setRandomIdx] = useState(initial)
   const [shouldWait, setShouldWait] = useState(false)
@@ -19,10 +18,6 @@ function useRandomize (arr, initial = 0, waitTime = 0) {
 }
 
 const App = () => {
-  useEffect(() => {
-    ReactGA.initialize('UA-142489920-1')
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  })
   const [currentLike, setCurrentLike] = useRandomize(likes, 0, 777)
 
   return (
