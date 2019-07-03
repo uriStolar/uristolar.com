@@ -7,7 +7,7 @@ const Navbar = props => {
   const [currentAcronym, setCurrentAcronym] = props.randomize(acronyms, Math.floor(Math.random() * acronyms.length), 0)
   return (
     <nav
-      className='navbar'
+      className='navbar is-fixed-top'
       role='navigation'
       aria-label='main navigation'
       onClick={setCurrentAcronym}

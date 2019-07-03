@@ -6,7 +6,7 @@ export default [
   'United Religions Initiative',
   'Universal Resource Identifier',
   'University of Rhode Island',
-  'Unknown and Really Insightful',
+  'Unknown Routes Incoming',
   'Unless Reactions Improve',
   'Unmatched Random Intelligence',
   'Unquoted Reference Introduced',

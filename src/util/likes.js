@@ -1,5 +1,5 @@
 export default [
-  'to write software',
+  'to code',
   'JavaScript',
   'Linux',
   'the Web',

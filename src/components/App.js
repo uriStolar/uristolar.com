@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Avatar from './Avatar'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import likes from './../util/likes'
 
 function useRandomize (arr, initial = 0, waitTime = 0) {
@@ -23,7 +24,7 @@ const App = () => {
   return (
     <div className='container'>
       <Navbar randomize={useRandomize} />
-      <section className='hero is-white-bis is-fullheight-with-navbar'>
+      <section className='hero is-white-bis is-small'>
         <div className='hero-body' onMouseMove={setCurrentLike}>
           <div className='container'>
             <Avatar />
@@ -33,6 +34,7 @@ const App = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   )
 }
