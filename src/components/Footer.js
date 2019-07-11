@@ -15,8 +15,8 @@ const Footer = () => (
         <a className='button icon is-medium' href='https://www.linkedin.com/in/uri-stolar-b541a9a1/' target='blank'>
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a className='button is-size-6' href='https://blog.uristolar.com' target='blank'>
-          Blog
+        <a className='button is-size-6' href='https://notes.uristolar.com' target='blank'>
+          n0tes
         </a>
       </div>
       <div className='level-right is-size-7'>
