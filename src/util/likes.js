@@ -6,6 +6,9 @@ export default [
   'InfoSec',
   'Cyberpunk',
   'the mountains',
+  'rock climbing',
   'bicycles',
-  'Open Source'
+  'Open Source',
+  'Cinema',
+  'cats'
 ]
