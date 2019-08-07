@@ -16,7 +16,7 @@ const Footer = () => (
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a className='button is-size-6' href='https://notas.uristolar.com' target='blank'>
-          n0tes
+          bl0g
         </a>
       </div>
       <div className='level-right is-size-7'>
