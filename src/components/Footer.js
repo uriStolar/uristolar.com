@@ -1,19 +1,22 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitterSquare, faLinkedin, faOsi } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitterSquare, faLinkedin, faOsi, faHackerrank } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => (
   <div className=''>
     <footer className='footer level'>
       <div className='buttons level-left'>
-        <a className='button icon is-medium' href='https://twitter.com/suservibar' target='blank'>
-          <FontAwesomeIcon icon={faTwitterSquare} />
-        </a>
         <a className='button icon is-medium' href='https://github.com/uriStolar' target='blank'>
           <FontAwesomeIcon icon={faGithub} />
         </a>
+        <a className='button is-size-6' href='https://hackerrank.com/mixtek' target='blank'>
+          <FontAwesomeIcon icon={faHackerrank} />
+        </a>
         <a className='button icon is-medium' href='https://www.linkedin.com/in/uri-stolar-b541a9a1/' target='blank'>
           <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a className='button icon is-medium' href='https://twitter.com/suservibar' target='blank'>
+          <FontAwesomeIcon icon={faTwitterSquare} />
         </a>
         <a className='button is-size-6' href='https://notas.uristolar.com' target='blank'>
           bl0g
