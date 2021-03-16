@@ -1,4 +1,4 @@
-export default [
+const likes = [
   'to code',
   'JavaScript',
   'Linux',
@@ -9,6 +9,11 @@ export default [
   'rock climbing',
   'bicycles',
   'Open Source',
-  'Cinema',
-  'cats'
-]
+  'cinema',
+  'cats',
+  'plants',
+  'cycling',
+  'cooking'
+];
+
+export default likes;

@@ -1,4 +1,4 @@
-export default [
+const acronyms = [
   'Uri\'s Recursive Identity',
   'Undefined Route Index',
   'Unholy, Rebel, Insatiable',
@@ -24,3 +24,5 @@ export default [
   'Using Ruby Indefinitely',
   'Unidad de Replicación de Inteligencia'
 ]
+
+export default acronyms;
