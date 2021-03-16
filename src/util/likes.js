@@ -8,7 +8,7 @@ const likes = [
   'the mountains 🏔️🌋',
   'rock climbing 🪨🧗🏼',
   'bicycles 🚲',
-  'Open Source',
+  'Open Source 🔓ℹ️',
   'cinema 🎥',
   'cats 🐈',
   'plants 🌿🪴',
