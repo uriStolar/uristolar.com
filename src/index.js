@@ -7,5 +7,5 @@ import * as serviceWorker from './serviceWorker'
 
 ReactGA.initialize('UA-142489920-1')
 ReactGA.pageview(window.location.pathname + window.location.search)
-console.log(window.location.search)
+serviceWorker.register();
 ReactDOM.render(<App />, document.getElementById('root'))
