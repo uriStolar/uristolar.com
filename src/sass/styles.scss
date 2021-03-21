@@ -15,16 +15,42 @@ body {
   font-family: 'Press Start 2P', cursive
 }
 
-@media (max-width: 768px) {
-  .avatar {
-    height: 128px;
-    width: 128px;
-  }
+.avatar {
+  height: 256px;
+  width: 256px;
+}
+
+.hero.is-small .hero-body {
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
 }
 
 @media (min-width: 1024px) {
   .hero.is-small .hero-body {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
+  }
+  .purpleNavBar {
+    padding-left: 3rem;
   }
 }
+
+@media (max-width: 400px) {
+  .avatar {
+    height: 168px;
+    width: 168px;
+  }
+  .hero.is-small .hero-body {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.purpleNavBar {
+  background-color: #4F43AE;
+}
+
+.navBarText {
+  color: white;
+}
+  

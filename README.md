@@ -2,7 +2,7 @@
 
 Created using [Create React App](https://gthub.com/facebook/create-react-app) and inspired by many 🖤
 
-If you find a funny acronym for **URI** feel free to submit a PR adding it under `/src/util/acronyms.js`.
+If you find a funny acronym for the **URI** letters, feel free to submit a PR adding it under `/src/utils/acronyms.js`.
 
 Thanks for looking!
 
